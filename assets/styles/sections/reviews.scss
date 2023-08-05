@@ -1,0 +1,128 @@
+@import "../mixins.scss";
+@import "../fonts.scss";
+
+.reviews {
+  background-color: $whitesmoke;
+
+  .container {
+    padding: 100px 120px;
+
+    .line {
+      margin: 0 auto;
+      width: 42px;
+      height: 8px;
+      background-color: #e08631;
+      margin-bottom: 30px;
+    }
+    .titles {
+      margin: 0 auto;
+      padding-bottom: 14px;
+      text-align: center;
+
+      h1 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        color: $green;
+        padding-bottom: 14px;
+      }
+
+      p {
+        width: 572px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $green;
+        margin: 0 auto;
+        padding-bottom: 30px;
+      }
+    }
+
+    .cards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 45px;
+      // border: 1px solid rgba(82, 80, 59, 0.1);
+      // border-radius: 4px;
+
+      .review1 {
+        // width: 100%;
+        // height: 100%;
+        border: 1px solid rgba(82, 80, 59, 0.1);
+        border-radius: 4px;
+        background-color: $white;
+        padding: 30px;
+
+        h1 {
+          font-size: 18px;
+          line-height: 24px;
+          color: #333333;
+          padding: 10px 10px 10px 0;
+        }
+
+        p {
+          width: 504px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #333333;
+          padding-bottom: 19px;
+        }
+
+        h3 {
+          font-size: 14px;
+          line-height: 20px;
+          color: #333333;
+          margin: 10px;
+          border-left: 2px solid #e08631;
+          padding-left: 10px;
+        }
+      }
+
+      .review2 {
+        // width: 100%;
+        // height: 100%;
+        border: 1px solid rgba(82, 80, 59, 0.1);
+        border-radius: 4px;
+        background-color: $white;
+        padding: 30px;
+
+        h1 {
+          font-size: 18px;
+          line-height: 24px;
+          color: #333333;
+          padding: 10px 10px 10px 0;
+        }
+
+        p {
+          width: 479px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #333333;
+          padding-bottom: 19px;
+        }
+
+        h3 {
+          font-size: 14px;
+          line-height: 20px;
+          color: #333333;
+          margin: 10px;
+          border-left: 2px solid #e08631;
+          padding-left: 10px;
+        }
+      }
+    }
+
+    .rectangle {
+      padding: 40px 0 70px 0;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 10px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}

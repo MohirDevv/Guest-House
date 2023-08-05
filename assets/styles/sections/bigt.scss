@@ -1,0 +1,32 @@
+@import "../mixins.scss";
+@import "../fonts.scss";
+
+.btitle {
+  background-color: $white;
+
+  .container {
+    width: 1187px;
+    height: 568px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+
+    .line {
+      width: 42px;
+      height: 8px;
+      background-color: #e08631;
+      @include flex;
+      border-top: 100px;
+    }
+
+    h1 {
+      font-size: 96px;
+      line-height: 96px;
+      color: $green;
+      text-align: center;
+      padding: 32px 0 0 0;
+    }
+  }
+}
